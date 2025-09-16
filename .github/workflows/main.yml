@@ -20,8 +20,4 @@ jobs:
         aws-region: us-east-1
 
     - name: Deploy static site to S3 bucket
-<<<<<<< HEAD
-      run: aws s3 sync . s3://demo-8433
-=======
       run: aws s3 sync . s3://demo-8433 --delete
->>>>>>> 7fde8ac8015ea4d1d30bb51d10fb4f5eab2b18eb
